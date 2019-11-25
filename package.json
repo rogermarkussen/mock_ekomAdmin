@@ -3,13 +3,16 @@
   "author": "DeviasIO",
   "email": "contact@devias.io",
   "licence": "UNLICENSED",
+  "homepage": "https://rogermarkussen.github.io/mock_ekomAdmin/",
   "version": "1.3.0",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -89,6 +92,7 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.2.0",
+    "gh-pages": "^2.1.1",
     "prettier": "^1.19.1",
     "typescript": "^3.7.2"
   }
