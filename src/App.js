@@ -23,7 +23,7 @@ import './mock';
 import './assets/scss/main.scss';
 
 const history = createBrowserHistory();
-const store = configureStore();
+const store = configureStore({ basename: process.env.PUBLIC_URL });
 
 function App() {
   const [direction, setDirection] = useState('ltr');
