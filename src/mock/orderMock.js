@@ -111,7 +111,7 @@ mock.onGet('/api/orders').reply(200, {
         .subtract(57, 'seconds'),
       customer: {
         name: 'Ava Gregoraci',
-        avatar: '/images/avatars/avatar_8.png'
+        avatar: './images/avatars/avatar_8.png'
       },
       payment: {
         ref: 'FAD97',

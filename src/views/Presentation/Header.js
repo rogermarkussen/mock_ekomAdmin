@@ -85,7 +85,7 @@ function Header({ className, ...rest }) {
         <img
           alt="Demos"
           className={classes.media}
-          src="/images/presentation/header.jpg"
+          src="./images/presentation/header.jpg"
         />
       </div>
       <div className={classes.stats}>
@@ -165,7 +165,7 @@ function Header({ className, ...rest }) {
             <div>
               <img
                 alt="React"
-                src="/images/react.png"
+                src="./images/react.png"
               />
             </div>
             <Typography

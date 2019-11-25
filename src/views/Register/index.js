@@ -112,7 +112,7 @@ function Register() {
         </CardContent>
         <CardMedia
           className={classes.media}
-          image="/images/auth.png"
+          image="./images/auth.png"
           title="Cover"
         >
           <Typography
@@ -125,7 +125,7 @@ function Register() {
             <Avatar
               alt="Person"
               className={classes.avatar}
-              src="/images/avatars/avatar_2.png"
+              src="./images/avatars/avatar_2.png"
             />
             <div>
               <Typography

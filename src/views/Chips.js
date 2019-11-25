@@ -66,7 +66,7 @@ function Chips() {
                 onDelete={() => {}}
               />
               <Chip
-                avatar={<Avatar src="/images/avatars/avatar_3.png">CM</Avatar>}
+                avatar={<Avatar src="./images/avatars/avatar_3.png">CM</Avatar>}
                 className={classes.chip}
                 label="Avatar"
                 onClick={() => {}}
@@ -84,7 +84,7 @@ function Chips() {
                 label="Basic"
               />
               <Chip
-                avatar={<Avatar src="/images/avatars/avatar_5.png">CM</Avatar>}
+                avatar={<Avatar src="./images/avatars/avatar_5.png">CM</Avatar>}
                 className={classes.chip}
                 label="Small"
                 onDelete={() => {}}

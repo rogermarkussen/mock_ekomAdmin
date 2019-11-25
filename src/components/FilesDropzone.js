@@ -93,7 +93,7 @@ function FilesDropzone({ className, ...rest }) {
           <img
             alt="Select file"
             className={classes.image}
-            src="/images/undraw_add_file2_gvbb.svg"
+            src="./images/undraw_add_file2_gvbb.svg"
           />
         </div>
         <div>

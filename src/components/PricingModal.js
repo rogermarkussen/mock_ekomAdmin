@@ -132,7 +132,7 @@ function PricingModal({
                 <img
                   alt="Product"
                   className={classes.image}
-                  src="/images/products/product_freelancer.svg"
+                  src="./images/products/product_freelancer.svg"
                 />
                 <Typography
                   component="h3"
@@ -197,7 +197,7 @@ function PricingModal({
                 <img
                   alt="Product"
                   className={classes.image}
-                  src="/images/products/product_agency--outlined.svg"
+                  src="./images/products/product_agency--outlined.svg"
                 />
                 <Typography
                   component="h3"
@@ -262,7 +262,7 @@ function PricingModal({
                 <img
                   alt="Product"
                   className={classes.image}
-                  src="/images/products/product_enterprise.svg"
+                  src="./images/products/product_enterprise.svg"
                 />
                 <Typography
                   component="h3"

@@ -70,7 +70,7 @@ mock.onGet('/api/dashboard/profitable-products').reply(200, {
       id: uuid(),
       type: 'freelancer_basic',
       name: 'Freelancer Basic Subscription',
-      image: '/images/products/product_freelancer.svg',
+      image: './images/products/product_freelancer.svg',
       subscriptions: '13,153',
       currency: '$',
       price: '5.00',
@@ -80,7 +80,7 @@ mock.onGet('/api/dashboard/profitable-products').reply(200, {
       id: uuid(),
       type: 'freelancer_extra',
       name: 'Freelancer Extra Subscription',
-      image: '/images/products/product_freelancer.svg',
+      image: './images/products/product_freelancer.svg',
       subscriptions: '10,300',
       currency: '$',
       price: '15.00',
@@ -90,7 +90,7 @@ mock.onGet('/api/dashboard/profitable-products').reply(200, {
       id: uuid(),
       type: 'agency_basic',
       name: 'Agency Basic Subscription',
-      image: '/images/products/product_agency.svg',
+      image: './images/products/product_agency.svg',
       subscriptions: '5,300',
       currency: '$',
       price: '25.00',
@@ -100,7 +100,7 @@ mock.onGet('/api/dashboard/profitable-products').reply(200, {
       id: uuid(),
       type: 'enterprise_basic',
       name: 'Enterprise Basic Subscription',
-      image: '/images/products/product_enterprise.svg',
+      image: './images/products/product_enterprise.svg',
       subscriptions: '1,203',
       currency: '$',
       price: '205.00',
@@ -110,7 +110,7 @@ mock.onGet('/api/dashboard/profitable-products').reply(200, {
       id: uuid(),
       type: 'enterprise_extra',
       name: 'Enterprise Extra Subscription',
-      image: '/images/products/product_enterprise.svg',
+      image: './images/products/product_enterprise.svg',
       subscriptions: '254',
       currency: '$',
       price: '500.00',
@@ -127,7 +127,7 @@ mock.onGet('/api/dashboard/customer-activity').reply(200, {
       description: 'Subscription Purchase',
       author: {
         name: 'Ekaterina Tankova',
-        avatar: '/images/avatars/avatar_2.png'
+        avatar: './images/avatars/avatar_2.png'
       },
       created_at: moment().subtract(23, 'minutes')
     },
@@ -137,7 +137,7 @@ mock.onGet('/api/dashboard/customer-activity').reply(200, {
       description: 'Subscription Purchase',
       author: {
         name: 'Cao Yu',
-        avatar: '/images/avatars/avatar_3.png'
+        avatar: './images/avatars/avatar_3.png'
       },
       created_at: moment().subtract(56, 'minutes')
     },
@@ -147,7 +147,7 @@ mock.onGet('/api/dashboard/customer-activity').reply(200, {
       description: 'Subscription Purchase',
       author: {
         name: 'Alexa Richardson',
-        avatar: '/images/avatars/avatar_4.png'
+        avatar: './images/avatars/avatar_4.png'
       },
       created_at: moment().subtract(2, 'hours')
     },
@@ -157,7 +157,7 @@ mock.onGet('/api/dashboard/customer-activity').reply(200, {
       description: 'Subscription Purchase',
       author: {
         name: 'Anje Keizer',
-        avatar: '/images/avatars/avatar_5.png'
+        avatar: './images/avatars/avatar_5.png'
       },
       created_at: moment().subtract(5, 'minutes')
     },
@@ -167,7 +167,7 @@ mock.onGet('/api/dashboard/customer-activity').reply(200, {
       description: 'Subscription Purchase',
       author: {
         name: 'Clarke Gillebert',
-        avatar: '/images/avatars/avatar_6.png'
+        avatar: './images/avatars/avatar_6.png'
       },
       created_at: moment().subtract(5, 'minutes')
     }
@@ -283,7 +283,7 @@ mock.onGet('/api/dashboard/latest-projects').reply(200, {
       currency: '$',
       author: {
         name: 'Anje Keizer',
-        avatar: '/images/avatars/avatar_5.png'
+        avatar: './images/avatars/avatar_5.png'
       },
       tags: [
         {
@@ -299,7 +299,7 @@ mock.onGet('/api/dashboard/latest-projects').reply(200, {
       currency: '$',
       author: {
         name: 'Emilee Simchenko',
-        avatar: '/images/avatars/avatar_9.png'
+        avatar: './images/avatars/avatar_9.png'
       },
       tags: [
         {
@@ -315,7 +315,7 @@ mock.onGet('/api/dashboard/latest-projects').reply(200, {
       currency: '$',
       author: {
         name: 'Kwak Seong-Min',
-        avatar: '/images/avatars/avatar_10.png'
+        avatar: './images/avatars/avatar_10.png'
       },
       tags: [
         {
@@ -331,7 +331,7 @@ mock.onGet('/api/dashboard/latest-projects').reply(200, {
       currency: '$',
       author: {
         name: 'Shen Zhi',
-        avatar: '/images/avatars/avatar_11.png'
+        avatar: './images/avatars/avatar_11.png'
       },
       tags: [
         {
@@ -347,7 +347,7 @@ mock.onGet('/api/dashboard/latest-projects').reply(200, {
       currency: '$',
       author: {
         name: 'Cao Yu',
-        avatar: '/images/avatars/avatar_3.png'
+        avatar: './images/avatars/avatar_3.png'
       },
       tags: [
         {

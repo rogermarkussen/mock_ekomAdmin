@@ -35,7 +35,7 @@ Ekaterina Tankova
       receiver: {
         name: 'Ekaterina Tankova',
         email: 'ekaterina.tankova@devias.io',
-        avatar: '/images/avatars/avatar_2.png'
+        avatar: './images/avatars/avatar_2.png'
       },
       created_at: moment()
     },
@@ -50,7 +50,7 @@ Ekaterina Tankova
       receiver: {
         name: 'Adam Denisov',
         email: 'adam.denisov@devias.io',
-        avatar: '/images/avatars/avatar_7.png'
+        avatar: './images/avatars/avatar_7.png'
       },
       created_at: moment()
     },
@@ -69,7 +69,7 @@ Ekaterina Tankova
         'Dear Shen, Your flight is coming up soon. Please don’t forget to check in for your scheduled flight.',
       receiver: {
         name: 'Clarke Gillebert',
-        avatar: '/images/avatars/avatar_6.png'
+        avatar: './images/avatars/avatar_6.png'
       },
       created_at: moment()
     },
@@ -83,7 +83,7 @@ Ekaterina Tankova
         'My market leading client has another fantastic opportunity for an experienced Software Developer to join them on a heavily remote basis',
       receiver: {
         name: 'Cao Yu',
-        avatar: '/images/avatars/avatar_3.png'
+        avatar: './images/avatars/avatar_3.png'
       },
       created_at: moment()
     }

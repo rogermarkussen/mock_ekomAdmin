@@ -30,9 +30,9 @@ mock.onGet('/api/kanban').reply(200, {
       desc:
         'Duis condimentum lacus finibus felis pellentesque, ac auctor nibh fermentum. Duis sed dui ante. Phasellus id eros tincidunt, dictum lorem vitae, pellentesque sem. Aenean eu enim sit amet mauris rhoncus mollis. Sed enim turpis, porta a felis et, luctus faucibus nisi. Phasellus et metus fermentum, ultrices arcu aliquam, facilisis justo. Cras nunc nunc, elementum sed euismod ut, maximus eget nibh. Phasellus condimentum lorem neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce sagittis pharetra eleifend. Suspendisse potenti.',
       members: [
-        '/images/avatars/avatar_1.png',
-        '/images/avatars/avatar_5.png',
-        '/images/avatars/avatar_6.png'
+        './images/avatars/avatar_1.png',
+        './images/avatars/avatar_5.png',
+        './images/avatars/avatar_6.png'
       ],
       files: 0,
       comments: 1,
@@ -46,7 +46,7 @@ mock.onGet('/api/kanban').reply(200, {
       title: 'Interview for the Asis. Sales Manager',
       desc:
         'We are looking for vue experience and of course node js strong knowledge',
-      members: ['/images/avatars/avatar_2.png', '/images/avatars/avatar_3.png'],
+      members: ['./images/avatars/avatar_2.png', './images/avatars/avatar_3.png'],
       files: 0,
       comments: 2,
       progress: 0,
@@ -59,7 +59,7 @@ mock.onGet('/api/kanban').reply(200, {
       title: 'Change the height of the top bar because it looks too chunky',
       desc:
         'We nede to make it aggresive with pricing because it’s in their interest to acquire us',
-      members: ['/images/avatars/avatar_11.png'],
+      members: ['./images/avatars/avatar_11.png'],
       files: 0,
       comments: 0,
       progress: 0,
@@ -73,9 +73,9 @@ mock.onGet('/api/kanban').reply(200, {
       desc:
         'We nede to make it aggresive with pricing because it’s in their interest to acquire us',
       members: [
-        '/images/avatars/avatar_6.png',
-        '/images/avatars/avatar_5.png',
-        '/images/avatars/avatar_9.png'
+        './images/avatars/avatar_6.png',
+        './images/avatars/avatar_5.png',
+        './images/avatars/avatar_9.png'
       ],
       files: 2,
       comments: 1,
@@ -89,7 +89,7 @@ mock.onGet('/api/kanban').reply(200, {
       title: 'Update the customer API for payments',
       desc:
         'We nede to make it aggresive with pricing because it’s in their interest to acquire us',
-      members: ['/images/avatars/avatar_10.png'],
+      members: ['./images/avatars/avatar_10.png'],
       files: 2,
       comments: 0,
       progress: 60,
@@ -103,8 +103,8 @@ mock.onGet('/api/kanban').reply(200, {
       desc:
         'We nede to make it aggresive with pricing because it’s in their interest to acquire us',
       members: [
-        '/images/avatars/avatar_10.png',
-        '/images/avatars/avatar_11.png'
+        './images/avatars/avatar_10.png',
+        './images/avatars/avatar_11.png'
       ],
       files: 0,
       comments: 2,
@@ -119,9 +119,9 @@ mock.onGet('/api/kanban').reply(200, {
       desc:
         'We nede to make it aggresive with pricing because it’s in their interest to acquire us',
       members: [
-        '/images/avatars/avatar_6.png',
-        '/images/avatars/avatar_4.png',
-        '/images/avatars/avatar_2.png'
+        './images/avatars/avatar_6.png',
+        './images/avatars/avatar_4.png',
+        './images/avatars/avatar_2.png'
       ],
       files: 0,
       comments: 7,
@@ -136,10 +136,10 @@ mock.onGet('/api/kanban').reply(200, {
       desc:
         'We nede to make it aggresive with pricing because it’s in their interest to acquire us',
       members: [
-        '/images/avatars/avatar_6.png',
-        '/images/avatars/avatar_4.png',
-        '/images/avatars/avatar_8.png',
-        '/images/avatars/avatar_2.png'
+        './images/avatars/avatar_6.png',
+        './images/avatars/avatar_4.png',
+        './images/avatars/avatar_8.png',
+        './images/avatars/avatar_2.png'
       ],
       files: 0,
       comments: 7,
@@ -153,9 +153,9 @@ mock.onGet('/api/kanban').reply(200, {
       title: 'Design Customer Management Page',
       desc: 'Change the height of the top bar because it looks too chunky',
       members: [
-        '/images/avatars/avatar_6.png',
-        '/images/avatars/avatar_2.png',
-        '/images/avatars/avatar_9.png'
+        './images/avatars/avatar_6.png',
+        './images/avatars/avatar_2.png',
+        './images/avatars/avatar_9.png'
       ],
       files: 3,
       comments: 3,
@@ -170,11 +170,11 @@ mock.onGet('/api/kanban').reply(200, {
       desc:
         'We nede to make it aggresive with pricing because it’s in their interest to acquire us',
       members: [
-        '/images/avatars/avatar_6.png',
-        '/images/avatars/avatar_4.png',
-        '/images/avatars/avatar_5.png',
-        '/images/avatars/avatar_2.png',
-        '/images/avatars/avatar_9.png'
+        './images/avatars/avatar_6.png',
+        './images/avatars/avatar_4.png',
+        './images/avatars/avatar_5.png',
+        './images/avatars/avatar_2.png',
+        './images/avatars/avatar_9.png'
       ],
       files: 1,
       comments: 0,

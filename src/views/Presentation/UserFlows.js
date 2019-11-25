@@ -59,7 +59,7 @@ function UserFlows({ className, ...rest }) {
           >
             <img
               alt="User flows"
-              src="/images/presentation/user_flows.png"
+              src="./images/presentation/user_flows.png"
             />
           </Grid>
         </Grid>

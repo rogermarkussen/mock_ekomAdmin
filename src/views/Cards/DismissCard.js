@@ -57,12 +57,12 @@ function DismissCard({ className, ...rest }) {
     >
       <CardMedia
         className={classes.media}
-        image="/images/covers/cover_2.jpg"
+        image="./images/covers/cover_2.jpg"
       />
       <CardContent className={classes.content}>
         <Avatar
           className={classes.avatar}
-          src="/images/avatars/avatar_3.png"
+          src="./images/avatars/avatar_3.png"
         >
           CM
         </Avatar>

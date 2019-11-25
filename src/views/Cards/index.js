@@ -74,7 +74,7 @@ function Cards() {
                 title: 'Develop a PDF Editor',
                 author: {
                   name: 'Sasha Moreno',
-                  avatar: '/images/avatars/avatar_6.png'
+                  avatar: './images/avatars/avatar_6.png'
                 },
                 price: '12,500',
                 currency: '$',
@@ -108,7 +108,7 @@ function Cards() {
                 message: 'Shen was really great during the all time session we created the project',
                 reviewer: {
                   name: 'Ekaterina Tankova',
-                  avatar: '/images/avatars/avatar_2.png'
+                  avatar: './images/avatars/avatar_2.png'
                 },
                 project: {
                   title: 'Mella Full Screen Slider',

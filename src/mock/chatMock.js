@@ -8,7 +8,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
       id: uuid(),
       otherUser: {
         name: 'Adam Denisov',
-        avatar: '/images/avatars/avatar_7.png',
+        avatar: './images/avatars/avatar_7.png',
         active: true,
         lastActivity: moment()
       },
@@ -18,7 +18,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
           sender: {
             authUser: false,
             name: 'Adam Denisov',
-            avatar: '/images/avatars/avatar_7.png',
+            avatar: './images/avatars/avatar_7.png',
             lastActivity: moment()
           },
           content:
@@ -31,7 +31,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
           sender: {
             authUser: true,
             name: 'Shen Zhi',
-            avatar: '/images/avatars/avatar_11.png'
+            avatar: './images/avatars/avatar_11.png'
           },
           content:
             'I would need to know more details, but my hourly rate stats at $35/hour. Thanks!',
@@ -43,7 +43,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
           sender: {
             authUser: false,
             name: 'Adam Denisov',
-            avatar: '/images/avatars/avatar_7.png'
+            avatar: './images/avatars/avatar_7.png'
           },
           content:
             'Well it\'s a really easy one, I\'m sure we can make it half of the price.',
@@ -55,7 +55,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
           sender: {
             authUser: true,
             name: 'Shen Zhi',
-            avatar: '/images/avatars/avatar_11.png'
+            avatar: './images/avatars/avatar_11.png'
           },
           content:
             'Then why don\'t you make it if it\'s that easy? Sorry I\'m not interetes, have fantastic day Adam!',
@@ -67,7 +67,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
           sender: {
             authUser: false,
             name: 'Adam Denisov',
-            avatar: '/images/avatars/avatar_7.png'
+            avatar: './images/avatars/avatar_7.png'
           },
           content: 'Last offer, $25 per hour',
           contentType: 'text',
@@ -78,9 +78,9 @@ mock.onGet('/api/chat/conversations').reply(200, {
           sender: {
             authUser: false,
             name: 'Adam Denisov',
-            avatar: '/images/avatars/avatar_7.png'
+            avatar: './images/avatars/avatar_7.png'
           },
-          content: '/images/projects/project_1.jpg',
+          content: './images/projects/project_1.jpg',
           contentType: 'image',
           created_at: moment().subtract(1, 'minute')
         }
@@ -92,7 +92,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
       id: uuid(),
       otherUser: {
         name: 'Ekaterina Tankova',
-        avatar: '/images/avatars/avatar_2.png',
+        avatar: './images/avatars/avatar_2.png',
         active: true,
         lastActivity: moment()
       },
@@ -102,7 +102,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
           sender: {
             authUser: true,
             name: 'Shen Zhi',
-            avatar: '/images/avatars/avatar_11.png'
+            avatar: './images/avatars/avatar_11.png'
           },
           content: 'Hey, would you like to collaborate?',
           contentType: 'text',
@@ -113,7 +113,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
           sender: {
             authUser: false,
             name: 'Ekaterina Tankova',
-            avatar: '/images/avatars/avatar_2.png'
+            avatar: './images/avatars/avatar_2.png'
           },
           content: 'I don\'t think that\'s ideal',
           contentType: 'text',
@@ -127,7 +127,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
       id: uuid(),
       otherUser: {
         name: 'Emilee Simchenko',
-        avatar: '/images/avatars/avatar_9.png',
+        avatar: './images/avatars/avatar_9.png',
         active: false,
         lastActivity: moment().subtract(2, 'minutes')
       },
@@ -137,7 +137,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
           sender: {
             authUser: false,
             name: 'Emilee Simchenko',
-            avatar: '/images/avatars/avatar_9.png'
+            avatar: './images/avatars/avatar_9.png'
           },
           content: 'Hi Shen, we should submit the product today',
           contentType: 'text',
@@ -148,7 +148,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
           sender: {
             authUser: true,
             name: 'Shen Zhi',
-            avatar: '/images/avatars/avatar_11.png'
+            avatar: './images/avatars/avatar_11.png'
           },
           content: 'Oh, totally forgot about it',
           contentType: 'text',
@@ -161,7 +161,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
           sender: {
             authUser: true,
             name: 'Shen Zhi',
-            avatar: '/images/avatars/avatar_11.png'
+            avatar: './images/avatars/avatar_11.png'
           },
           content: 'Alright then',
           contentType: 'text',
@@ -175,7 +175,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
       id: uuid(),
       otherUser: {
         name: 'Kwak Seong-Min',
-        avatar: '/images/avatars/avatar_10.png',
+        avatar: './images/avatars/avatar_10.png',
         active: true,
         lastActivity: moment()
       },
@@ -185,7 +185,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
           sender: {
             authUser: true,
             name: 'Shen Zhi',
-            avatar: '/images/avatars/avatar_11.png'
+            avatar: './images/avatars/avatar_11.png'
           },
           content:
             'Hi Kwak! I\'ve seen your projects and we can work together on a project. Will send you the details later.',
@@ -197,7 +197,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
           sender: {
             authUser: false,
             name: 'Kwak Seong-Min',
-            avatar: '/images/avatars/avatar_10.png'
+            avatar: './images/avatars/avatar_10.png'
           },
           content: 'Haha, right, we\'ll do it',
           contentType: 'text',
@@ -211,7 +211,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
       id: uuid(),
       otherUser: {
         name: 'Cao Yu',
-        avatar: '/images/avatars/avatar_3.png',
+        avatar: './images/avatars/avatar_3.png',
         active: false,
         lastActivity: moment().subtract(4, 'hours')
       },
@@ -221,7 +221,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
           sender: {
             authUser: true,
             name: 'Shen Zhi',
-            avatar: '/images/avatars/avatar_11.png'
+            avatar: './images/avatars/avatar_11.png'
           },
           content: 'Did you receive my email about the brief?',
           contentType: 'text',
@@ -232,7 +232,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
           sender: {
             authUser: false,
             name: 'Cao Yu',
-            avatar: '/images/avatars/avatar_3.png'
+            avatar: './images/avatars/avatar_3.png'
           },
           content: 'I\'m not sure, but I will check it later',
           contentType: 'text',
@@ -246,7 +246,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
       id: uuid(),
       otherUser: {
         name: 'Clarke Gillebert',
-        avatar: '/images/avatars/avatar_6.png',
+        avatar: './images/avatars/avatar_6.png',
         active: true,
         lastActivity: moment()
       },
@@ -256,7 +256,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
           sender: {
             authUser: false,
             name: 'Clarke Gillebert',
-            avatar: '/images/avatars/avatar_6.png'
+            avatar: './images/avatars/avatar_6.png'
           },
           content: 'Hey Shen! I love your projects!!!',
           contentType: 'text',
@@ -267,7 +267,7 @@ mock.onGet('/api/chat/conversations').reply(200, {
           sender: {
             authUser: true,
             name: 'Shen Zhi',
-            avatar: '/images/avatars/avatar_11.png'
+            avatar: './images/avatars/avatar_11.png'
           },
           content: 'Haha thank you Clarke, I\'m doing our best',
           contentType: 'text',
@@ -295,7 +295,7 @@ mock.onGet('/api/chat/activity').reply(200, {
     {
       id: uuid(),
       name: 'Ekaterina Tankova',
-      avatar: '/images/avatars/avatar_2.png',
+      avatar: './images/avatars/avatar_2.png',
       active: false,
       lastActivity: moment().subtract(24, 'minutes'),
       group: 'clients'
@@ -303,7 +303,7 @@ mock.onGet('/api/chat/activity').reply(200, {
     {
       id: uuid(),
       name: 'Cao Yu',
-      avatar: '/images/avatars/avatar_3.png',
+      avatar: './images/avatars/avatar_3.png',
       active: true,
       lastActivity: moment(),
       group: 'clients'
@@ -311,7 +311,7 @@ mock.onGet('/api/chat/activity').reply(200, {
     {
       id: uuid(),
       name: 'Anje Keizer',
-      avatar: '/images/avatars/avatar_5.png',
+      avatar: './images/avatars/avatar_5.png',
       active: false,
       lastActivity: moment().subtract(1, 'minutes'),
       group: 'clients'
@@ -319,7 +319,7 @@ mock.onGet('/api/chat/activity').reply(200, {
     {
       id: uuid(),
       name: 'Ava Gregoraci',
-      avatar: '/images/avatars/avatar_8.png',
+      avatar: './images/avatars/avatar_8.png',
       active: true,
       lastActivity: moment(),
       group: 'clients'
@@ -327,7 +327,7 @@ mock.onGet('/api/chat/activity').reply(200, {
     {
       id: uuid(),
       name: 'Clarke Gillebert',
-      avatar: '/images/avatars/avatar_6.png',
+      avatar: './images/avatars/avatar_6.png',
       active: true,
       lastActivity: moment(),
       group: 'friends'
@@ -335,7 +335,7 @@ mock.onGet('/api/chat/activity').reply(200, {
     {
       id: uuid(),
       name: 'Adam Denisov',
-      avatar: '/images/avatars/avatar_7.png',
+      avatar: './images/avatars/avatar_7.png',
       active: false,
       lastActivity: moment().subtract(24, 'minutes'),
       group: 'friends'
@@ -343,7 +343,7 @@ mock.onGet('/api/chat/activity').reply(200, {
     {
       id: uuid(),
       name: 'Emilee Simchenko',
-      avatar: '/images/avatars/avatar_9.png',
+      avatar: './images/avatars/avatar_9.png',
       active: true,
       lastActivity: moment(),
       group: 'friends'
@@ -351,7 +351,7 @@ mock.onGet('/api/chat/activity').reply(200, {
     {
       id: uuid(),
       name: 'Kwak Seong-Min',
-      avatar: '/images/avatars/avatar_10.png',
+      avatar: './images/avatars/avatar_10.png',
       active: true,
       lastActivity: moment(),
       group: 'friends'
@@ -359,7 +359,7 @@ mock.onGet('/api/chat/activity').reply(200, {
     {
       id: uuid(),
       name: 'Shen Zhi',
-      avatar: '/images/avatars/avatar_11.png',
+      avatar: './images/avatars/avatar_11.png',
       active: true,
       lastActivity: moment(),
       group: 'friends'
@@ -367,7 +367,7 @@ mock.onGet('/api/chat/activity').reply(200, {
     {
       id: uuid(),
       name: 'Merrile Burgett',
-      avatar: '/images/avatars/avatar_12.png',
+      avatar: './images/avatars/avatar_12.png',
       active: false,
       lastActivity: moment().subtract(2, 'days')
     }

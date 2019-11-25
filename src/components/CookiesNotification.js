@@ -61,7 +61,7 @@ function CookiesNotification() {
       <div className={classes.media}>
         <img
           alt="Cookies"
-          src="/images/undraw_cookie_love_ulvn.svg"
+          src="./images/undraw_cookie_love_ulvn.svg"
         />
       </div>
       <div className={classes.content}>

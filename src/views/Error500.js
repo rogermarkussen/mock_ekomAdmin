@@ -62,7 +62,7 @@ function Error500() {
         <img
           alt="Under development"
           className={classes.image}
-          src="/images/undraw_server_down_s4lk.svg"
+          src="./images/undraw_server_down_s4lk.svg"
         />
       </div>
       <div className={classes.buttonContainer}>

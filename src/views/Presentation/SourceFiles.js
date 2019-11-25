@@ -57,7 +57,7 @@ function SourceFiles({ className, ...rest }) {
           >
             <img
               alt="User flows"
-              src="/images/presentation/source_files.png"
+              src="./images/presentation/source_files.png"
             />
           </Grid>
         </Grid>

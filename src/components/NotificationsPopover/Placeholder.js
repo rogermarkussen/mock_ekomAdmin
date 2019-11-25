@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
   },
   image: {
     height: 240,
-    backgroundImage: 'url("/images/undraw_empty_xct9.svg")',
+    backgroundImage: 'url("./images/undraw_empty_xct9.svg")',
     backgroundPositionX: 'right',
     backgroundPositionY: 'center',
     backgroundRepeat: 'no-repeat',

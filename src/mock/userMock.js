@@ -13,10 +13,10 @@ mock.onGet('/api/users/1/posts').reply(200, {
       id: uuid(),
       author: {
         name: 'Shen Zhi',
-        avatar: '/images/avatars/avatar_11.png'
+        avatar: './images/avatars/avatar_11.png'
       },
       message: 'Just made this home screen for a project, what-cha thinkin?',
-      media: '/images/posts/post_1.jpg',
+      media: './images/posts/post_1.jpg',
       liked: true,
       likes: 24,
       comments: [
@@ -24,7 +24,7 @@ mock.onGet('/api/users/1/posts').reply(200, {
           id: uuid(),
           author: {
             name: 'Anje Keizer',
-            avatar: '/images/avatars/avatar_5.png'
+            avatar: './images/avatars/avatar_5.png'
           },
           message: 'Could use some more statistics, but that’s me haha',
           created_at: moment().subtract(3, 'hours')
@@ -33,7 +33,7 @@ mock.onGet('/api/users/1/posts').reply(200, {
           id: uuid(),
           author: {
             name: 'Ava Gregoraci',
-            avatar: '/images/avatars/avatar_8.png'
+            avatar: './images/avatars/avatar_8.png'
           },
           message:
             'Hmm, honestly this looks nice but I would change the shadow though',
@@ -46,7 +46,7 @@ mock.onGet('/api/users/1/posts').reply(200, {
       id: uuid(),
       author: {
         name: 'Shen Zhi',
-        avatar: '/images/avatars/avatar_11.png'
+        avatar: './images/avatars/avatar_11.png'
       },
       message:
         'As a human being, you are designed in a way that makes you incapable of experiencing any positive emotion unless you set an aim and progress towards it. What makes you happy is not, in fact, attaining it, but making progress towards it.',
@@ -57,7 +57,7 @@ mock.onGet('/api/users/1/posts').reply(200, {
           id: uuid(),
           author: {
             name: 'Clarke Gillebert',
-            avatar: '/images/avatars/avatar_6.png'
+            avatar: './images/avatars/avatar_6.png'
           },
           message:
             'That’s actually deep. Thanks for the design, would you consider making an interaction?',
@@ -67,7 +67,7 @@ mock.onGet('/api/users/1/posts').reply(200, {
           id: uuid(),
           author: {
             name: 'Alexa Richardson',
-            avatar: '/images/avatars/avatar_4.png'
+            avatar: './images/avatars/avatar_4.png'
           },
           message: 'It looks nice',
           created_at: moment().subtract(2, 'hours')
@@ -85,7 +85,7 @@ mock.onGet('/api/users/1/projects').reply(200, {
       title: 'Mella Full Screen Slider',
       author: {
         name: 'Anje Keizer',
-        avatar: '/images/avatars/avatar_5.png'
+        avatar: './images/avatars/avatar_5.png'
       },
       price: '12,500',
       currency: '$',
@@ -149,7 +149,7 @@ mock.onGet('/api/users/1/reviews').reply(200, {
         'Shen was really great during the all time session we created the project',
       reviewer: {
         name: 'Ekaterina Tankova',
-        avatar: '/images/avatars/avatar_2.png'
+        avatar: './images/avatars/avatar_2.png'
       },
       project: {
         title: 'Mella Full Screen Slider',
@@ -165,7 +165,7 @@ mock.onGet('/api/users/1/reviews').reply(200, {
       rating: 5,
       reviewer: {
         name: 'Cao Yu',
-        avatar: '/images/avatars/avatar_3.png'
+        avatar: './images/avatars/avatar_3.png'
       },
       project: {
         title: 'Dashboard Design',
@@ -186,35 +186,35 @@ mock.onGet('/api/users/1/connections').reply(200, {
     {
       id: uuid(),
       name: 'Ekaterina Tankova',
-      avatar: '/images/avatars/avatar_2.png',
+      avatar: './images/avatars/avatar_2.png',
       common: 12,
       status: 'connected'
     },
     {
       id: uuid(),
       name: 'Cao Yu',
-      avatar: '/images/avatars/avatar_3.png',
+      avatar: './images/avatars/avatar_3.png',
       common: 10,
       status: 'rejected'
     },
     {
       id: uuid(),
       name: 'Alexa Richardson',
-      avatar: '/images/avatars/avatar_4.png',
+      avatar: './images/avatars/avatar_4.png',
       common: 8,
       status: 'pending'
     },
     {
       id: uuid(),
       name: 'Adam Denisov',
-      avatar: '/images/avatars/avatar_7.png',
+      avatar: './images/avatars/avatar_7.png',
       common: 5,
       status: 'not_connected'
     },
     {
       id: uuid(),
       name: 'Ava Gregoraci',
-      avatar: '/images/avatars/avatar_8.png',
+      avatar: './images/avatars/avatar_8.png',
       common: 1,
       status: 'connected'
     }

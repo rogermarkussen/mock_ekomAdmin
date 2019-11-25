@@ -109,8 +109,8 @@ function Header({ className, ...rest }) {
   const user = {
     name: 'Shen Zhi',
     bio: 'Web Developer',
-    avatar: '/images/avatars/avatar_11.png',
-    cover: '/images/covers/cover_2.jpg',
+    avatar: './images/avatars/avatar_11.png',
+    cover: './images/covers/cover_2.jpg',
     connectedStatus: 'not_connected'
   };
   const [connectedStatus, setConnectedStatus] = useState(user.connectedStatus);

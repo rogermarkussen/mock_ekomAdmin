@@ -120,7 +120,7 @@ function Subscription({ className, ...rest }) {
               <img
                 alt="Product"
                 className={classes.productImage}
-                src="/images/products/product_freelancer.svg"
+                src="./images/products/product_freelancer.svg"
               />
               <Typography variant="overline">{subscription.name}</Typography>
             </div>

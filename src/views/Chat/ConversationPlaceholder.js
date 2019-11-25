@@ -33,7 +33,7 @@ function ConversationPlaceholder({ className, ...rest }) {
         <img
           alt="Select conversation"
           className={classes.image}
-          src="/images/undraw_work_chat_erdt.svg"
+          src="./images/undraw_work_chat_erdt.svg"
         />
         <Typography
           className={classes.title}

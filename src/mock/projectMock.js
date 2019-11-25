@@ -10,7 +10,7 @@ mock.onGet('/api/projects').reply(200, {
       title: 'Mella Full Screen Slider',
       author: {
         name: 'Anje Keizer',
-        avatar: '/images/avatars/avatar_5.png'
+        avatar: './images/avatars/avatar_5.png'
       },
       price: '12,500',
       currency: '$',
@@ -32,7 +32,7 @@ mock.onGet('/api/projects').reply(200, {
       title: 'Dashboard Design',
       author: {
         name: 'Emilee Simchenko',
-        avatar: '/images/avatars/avatar_9.png'
+        avatar: './images/avatars/avatar_9.png'
       },
       price: '15,750',
       currency: '$',
@@ -54,7 +54,7 @@ mock.onGet('/api/projects').reply(200, {
       title: 'Ten80 Web Design',
       author: {
         name: 'Kwak Seong-Min',
-        avatar: '/images/avatars/avatar_10.png'
+        avatar: './images/avatars/avatar_10.png'
       },
       price: '15,750',
       currency: '$',
@@ -76,7 +76,7 @@ mock.onGet('/api/projects').reply(200, {
       title: 'Neura e-commerce UI Kit',
       author: {
         name: 'Shen Zhi',
-        avatar: '/images/avatars/avatar_11.png'
+        avatar: './images/avatars/avatar_11.png'
       },
       price: '12,500',
       currency: '$',
@@ -98,7 +98,7 @@ mock.onGet('/api/projects').reply(200, {
       title: 'Administrator Dashboard',
       author: {
         name: 'Cao Yu',
-        avatar: '/images/avatars/avatar_3.png'
+        avatar: './images/avatars/avatar_3.png'
       },
       price: '15,750',
       currency: '$',
@@ -124,7 +124,7 @@ mock.onGet('/api/projects').reply(200, {
       title: 'Kalli UI Kit',
       author: {
         name: 'Anje Keizer',
-        avatar: '/images/avatars/avatar_5.png'
+        avatar: './images/avatars/avatar_5.png'
       },
       price: '15,750',
       currency: '$',
@@ -149,7 +149,7 @@ mock.onGet('/api/projects/1').reply(200, {
     title: 'Develop a PDF Export App',
     author: {
       name: 'Emilee Simchenko',
-      avatar: '/images/avatars/avatar_9.png',
+      avatar: './images/avatars/avatar_9.png',
       bio: 'We build beautiful functional themes for web professionals'
     },
     brief: `
@@ -187,19 +187,19 @@ I have attached a chat with our users most used devices.
       {
         id: uuid(),
         name: 'Ekaterina Tankova',
-        avatar: '/images/avatars/avatar_2.png',
+        avatar: './images/avatars/avatar_2.png',
         bio: 'Front End Developer'
       },
       {
         id: uuid(),
         name: 'Cao Yu',
-        avatar: '/images/avatars/avatar_3.png',
+        avatar: './images/avatars/avatar_3.png',
         bio: 'UX Designer'
       },
       {
         id: uuid(),
         name: 'Anje Keizer',
-        avatar: '/images/avatars/avatar_5.png',
+        avatar: './images/avatars/avatar_5.png',
         bio: 'Copyright'
       }
     ],
@@ -207,7 +207,7 @@ I have attached a chat with our users most used devices.
       {
         id: uuid(),
         name: 'example-project1.jpg',
-        url: '/images/projects/project_2.jpg',
+        url: './images/projects/project_2.jpg',
         mimeType: 'image/png',
         size: 1024 * 1024 * 3
       },
@@ -221,7 +221,7 @@ I have attached a chat with our users most used devices.
       {
         id: uuid(),
         name: 'example-project2.jpg',
-        url: '/images/projects/project_1.jpg',
+        url: './images/projects/project_1.jpg',
         mimeType: 'image/png',
         size: 1024 * 1024 * 2
       }
@@ -271,8 +271,8 @@ I have attached a chat with our users most used devices.
       {
         id: uuid(),
         name: 'Ekaterina Tankova',
-        avatar: '/images/avatars/avatar_2.png',
-        cover: '/images/covers/cover_1.jpg',
+        avatar: './images/avatars/avatar_2.png',
+        cover: './images/covers/cover_1.jpg',
         common_connections: 12,
         labels: [
           'User Experience',
@@ -285,8 +285,8 @@ I have attached a chat with our users most used devices.
       {
         id: uuid(),
         name: 'Cao Yu',
-        avatar: '/images/avatars/avatar_3.png',
-        cover: '/images/covers/cover_2.jpg',
+        avatar: './images/avatars/avatar_3.png',
+        cover: './images/covers/cover_2.jpg',
         common_connections: 5,
         labels: [
           'User Interface',
@@ -298,8 +298,8 @@ I have attached a chat with our users most used devices.
       {
         id: uuid(),
         name: 'Clarke Gillebert',
-        avatar: '/images/avatars/avatar_6.png',
-        cover: '/images/covers/cover_2.jpg',
+        avatar: './images/avatars/avatar_6.png',
+        cover: './images/covers/cover_2.jpg',
         common_connections: 17,
         labels: ['BackEnd development', 'Firebase', 'MongoDB', 'ExpressJS']
       }

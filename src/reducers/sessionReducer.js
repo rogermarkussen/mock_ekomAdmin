@@ -6,7 +6,7 @@ const initialState = {
     first_name: 'Roger',
     last_name: 'Markussen',
     email: 'rom@nkom.no',
-    avatar: '/images/avatars/roger.png',
+    avatar: './images/avatars/roger.png',
     bio: 'EkomGuru',
     role: 'ADMIN' // ['GUEST', 'USER', 'ADMIN']
   }

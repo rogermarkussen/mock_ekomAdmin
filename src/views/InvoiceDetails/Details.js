@@ -46,7 +46,7 @@ function Details({ invoice, className, ...rest }) {
           <Grid item>
             <img
               alt="Brand"
-              src="/images/logos/logo--dark.svg"
+              src="./images/logos/logo--dark.svg"
             />
           </Grid>
           <Grid item>

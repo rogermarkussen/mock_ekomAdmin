@@ -98,7 +98,7 @@ function DenseLists({ className, ...rest }) {
           >
             <ListItem divider>
               <ListItemAvatar>
-                <Avatar src="/images/avatars/avatar_3.png">
+                <Avatar src="./images/avatars/avatar_3.png">
                   CM
                 </Avatar>
               </ListItemAvatar>
@@ -112,7 +112,7 @@ function DenseLists({ className, ...rest }) {
             </ListItem>
             <ListItem divider>
               <ListItemAvatar>
-                <Avatar src="/images/avatars/avatar_4.png">
+                <Avatar src="./images/avatars/avatar_4.png">
                   PT
                 </Avatar>
               </ListItemAvatar>
@@ -126,7 +126,7 @@ function DenseLists({ className, ...rest }) {
             </ListItem>
             <ListItem>
               <ListItemAvatar>
-                <Avatar src="/images/avatars/avatar_5.png">
+                <Avatar src="./images/avatars/avatar_5.png">
                   DS
                 </Avatar>
               </ListItemAvatar>

@@ -116,7 +116,7 @@ function TopBar({ onOpenNavBarMobile, className, ...rest }) {
           </IconButton>
         </Hidden>
         <RouterLink to="/">
-          <img alt="Logo" src="/images/logos/ekomadmin.png" />
+          <img alt="Logo" src="./images/logos/ekomadmin.png" />
         </RouterLink>
         <div className={classes.flexGrow} />
         <Hidden smDown>

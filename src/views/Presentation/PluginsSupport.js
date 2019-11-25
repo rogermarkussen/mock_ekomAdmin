@@ -59,7 +59,7 @@ function PluginsSupport({ className, ...rest }) {
           >
             <img
               alt="User flows"
-              src="/images/presentation/plugins_support.png"
+              src="./images/presentation/plugins_support.png"
             />
           </Grid>
         </Grid>

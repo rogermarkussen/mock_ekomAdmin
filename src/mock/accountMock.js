@@ -5,7 +5,7 @@ import mock from 'src/utils/mock';
 
 mock.onGet('/api/account/profile').reply(200, {
   profile: {
-    avatar: '/images/avatars/avatar_11.png',
+    avatar: './images/avatars/avatar_11.png',
     canHire: false,
     country: 'USA',
     email: 'shen.zhi@devias.io',
@@ -38,7 +38,7 @@ mock.onGet('/api/account/projects').reply(200, {
       location: 'Europe',
       author: {
         name: 'Anje Keizer',
-        avatar: '/images/avatars/avatar_5.png'
+        avatar: './images/avatars/avatar_5.png'
       },
       tags: [
         {

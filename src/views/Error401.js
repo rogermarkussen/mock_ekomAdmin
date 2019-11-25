@@ -62,7 +62,7 @@ function Error401() {
         <img
           alt="Under development"
           className={classes.image}
-          src="/images/undraw_authentication_fsn5.svg"
+          src="./images/undraw_authentication_fsn5.svg"
         />
       </div>
       <div className={classes.buttonContainer}>

@@ -41,7 +41,7 @@ function CommentForm({ className, ...rest }) {
   const fileInputRef = useRef(null);
   const [value, setValue] = useState('');
   const sender = {
-    avatar: '/images/avatars/avatar_11.png'
+    avatar: './images/avatars/avatar_11.png'
   };
 
   const handleChange = (event) => {
