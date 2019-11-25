@@ -22,8 +22,8 @@ import './mixins/prismjs';
 import './mock';
 import './assets/scss/main.scss';
 
-const history = createBrowserHistory();
-const store = configureStore({ basename: process.env.PUBLIC_URL });
+const history = createBrowserHistory({ basename: process.env.PUBLIC_URL });
+const store = configureStore();
 
 function App() {
   const [direction, setDirection] = useState('ltr');
