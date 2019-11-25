@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mock_ekomAdmin/precache-manifest.611073eb6a5c5d93eba46a01595b05b6.js"
+  "/mock_ekomAdmin/precache-manifest.e688e2bc91c4f785202ac7a3af82aae8.js"
 );
 
 self.addEventListener('message', (event) => {
