@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9992ba9649716ff0f216aa932a481e0d",
+    "revision": "f927eb4d085f1579810f10fb60caebb5",
     "url": "/mock_ekomAdmin/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mock_ekomAdmin/static/css/16.21e275b0.chunk.css"
   },
   {
-    "revision": "8f7090f4d805a965fac3",
+    "revision": "b5bc640b53fb667193a1",
     "url": "/mock_ekomAdmin/static/css/main.a4e7b0be.chunk.css"
   },
   {
@@ -184,8 +184,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mock_ekomAdmin/static/js/9.0508b731.chunk.js"
   },
   {
-    "revision": "8f7090f4d805a965fac3",
-    "url": "/mock_ekomAdmin/static/js/main.e0ad9135.chunk.js"
+    "revision": "b5bc640b53fb667193a1",
+    "url": "/mock_ekomAdmin/static/js/main.eda8814c.chunk.js"
   },
   {
     "revision": "9d648800e94797ed648e",
